@@ -1,0 +1,25 @@
+{
+ "content": null, 
+ "creation": "2019-07-15 09:26:09.805345", 
+ "docstatus": 0, 
+ "doctype": "Page", 
+ "icon": "fa fa-play", 
+ "idx": 0, 
+ "modified": "2019-07-15 11:37:11.449110", 
+ "modified_by": "Administrator", 
+ "module": "Bea Cukai", 
+ "name": "cctv", 
+ "owner": "Administrator", 
+ "page_name": "cctv", 
+ "restrict_to_domain": "Bea Cukai", 
+ "roles": [
+  {
+   "role": "All"
+  }
+ ], 
+ "script": null, 
+ "standard": "Yes", 
+ "style": null, 
+ "system_page": 0, 
+ "title": "CCTV"
+}

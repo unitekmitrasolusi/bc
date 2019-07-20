@@ -1,0 +1,26 @@
+{
+ "add_total_row": 0, 
+ "creation": "2019-05-11 15:42:07.144904", 
+ "disable_prepared_report": 0, 
+ "disabled": 0, 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 0, 
+ "is_standard": "Yes", 
+ "json": "{\"add_total_row\": 0}", 
+ "modified": "2019-05-12 08:42:04.240905", 
+ "modified_by": "Administrator", 
+ "module": "Bea Cukai", 
+ "name": "Laporan Pertanggungjawaban Mutasi Bahan Baku dan Bahan Penolong", 
+ "owner": "Administrator", 
+ "prepared_report": 0, 
+ "query": "SELECT\n`tabStock Ledger Entry`.`item_code` as \"Kode Barang:Link/Item:80\",\n`tabStock Ledger Entry`.`batch_no`,\n`tabStock Ledger Entry`.`warehouse`,\n`tabStock Ledger Entry`.`actual_qty`,\n`tabStock Ledger Entry`.`stock_uom`,\n`tabStock Ledger Entry`.`qty_after_transaction`,\n(SELECT `tabDelivery Note`.`customer_name` FROM `tabDelivery Note` WHERE `tabDelivery Note`.`naming_series` = `tabStock Ledger Entry`.`voucher_no`) AS Customer\n\nFROM\n   `tabStock Ledger Entry`\nWHERE\n   `tabStock Ledger Entry`.`warehouse` = 'Raw Material - STI'", 
+ "ref_doctype": "WIP", 
+ "report_name": "Laporan Pertanggungjawaban Mutasi Bahan Baku dan Bahan Penolong", 
+ "report_type": "Script Report", 
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

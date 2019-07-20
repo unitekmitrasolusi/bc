@@ -1,0 +1,37 @@
+{
+ "add_total_row": 1, 
+ "creation": "2019-05-08 15:14:01.841199", 
+ "disable_prepared_report": 0, 
+ "disabled": 0, 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 0, 
+ "is_standard": "Yes", 
+ "modified": "2019-07-10 11:53:49.880657", 
+ "modified_by": "Administrator", 
+ "module": "Bea Cukai", 
+ "name": "Laporan Pemasukan Barang Per Dokumen", 
+ "owner": "Administrator", 
+ "prepared_report": 0, 
+ "query": "select\n`tabPemasukan Barang`.jenis_dokumen_bc as \"Jenis Dokumen:Select:50\",\n`tabPemasukan Barang`.nomor_dokumen_bc as \"No. Dokumen:Data:80\",\n`tabPemasukan Barang`.tanggal_dokumen as \"Tanggal Dokumen:Date:80\",\n`tabPemasukan Barang`.purchase_receipt_no as \"No. Surat Jalan:int:150\",\n`tabPemasukan Barang`.delivery_date as \"Tgl. Surat Jalan:Date:80\",\n`tabPemasukan Barang`.pengirim_supplier as \"Pengirim:Link/Supplier:80\",\n`tabBarang Masuk Item`.item_code as \"Kode Barang:Link/Item:150\",\n`tabBarang Masuk Item`.item_name as \"Nama Barang:Data:200\",\n`tabBarang Masuk Item`.uom as \"Satuan:Link/UOM:80\",\n`tabBarang Masuk Item`.qty as \"Jumlah:Float:80\",\n`tabBarang Masuk Item`.amount as \"Nilai:Currency:150\"\n\n\n\nfrom\n`tabPemasukan Barang`,`tabBarang Masuk Item`\n\nwhere\n`tabPemasukan Barang`.docstatus=1", 
+ "ref_doctype": "Pemasukan Barang", 
+ "report_name": "Laporan Pemasukan Barang Per Dokumen", 
+ "report_type": "Query Report", 
+ "roles": [
+  {
+   "role": "Stock User"
+  }, 
+  {
+   "role": "Sales User"
+  }, 
+  {
+   "role": "Item Manager"
+  }, 
+  {
+   "role": "Stock Manager"
+  }, 
+  {
+   "role": "Sales Manager"
+  }
+ ]
+}

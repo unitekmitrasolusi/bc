@@ -1,0 +1,38 @@
+{
+ "add_total_row": 0, 
+ "creation": "2019-05-08 13:34:54.546041", 
+ "disable_prepared_report": 0, 
+ "disabled": 0, 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 0, 
+ "is_standard": "Yes", 
+ "json": "{\"add_total_row\": 0}", 
+ "modified": "2019-05-11 14:15:23.252359", 
+ "modified_by": "Administrator", 
+ "module": "Bea Cukai", 
+ "name": "Laporan Pengeluaran Barang Perdokumen", 
+ "owner": "Administrator", 
+ "prepared_report": 0, 
+ "query": "select\n`tabPengeluaran Barang`.jenis_dokumen_bc as \"Series:Select/BC.2.3:50\",\n`tabPengeluaran Barang`.nomor_dokumen_bc as \"No. Dokumen:Data:80\",\n`tabPengeluaran Barang`.tanggal_dokumen as \"Tanggal Dokumen:Date:80\",\n`tabPengeluaran Barang`.delivery_note as \"No. Surat Jalan:Link/Delivery Note:150\",\n`tabPengeluaran Barang`.delivery_date as \"Tgl. Surat Jalan:Date:80\",\n`tabPengeluaran Barang`.penerima_customer as \"Penerima:Link/Customer:80\",\n`tabBarang Keluar Item`.item_code as \"Kode Barang:Link/Item:150\",\n`tabBarang Keluar Item`.item_name as \"Nama Barang:Data:200\",\n`tabBarang Keluar Item`.uom as \"Satuan:Link/UOM:80\",\n`tabBarang Keluar Item`.qty as \"Jumlah:Float:80\",\n`tabBarang Keluar Item`.amount as \"Nilai:Currency:150\"\n\n\n\nfrom\n`tabPengeluaran Barang`,`tabBarang Keluar Item`\n\nwhere\n`tabPengeluaran Barang`.docstatus=1", 
+ "ref_doctype": "Pengeluaran Barang", 
+ "report_name": "Laporan Pengeluaran Barang Perdokumen", 
+ "report_type": "Query Report", 
+ "roles": [
+  {
+   "role": "Stock User"
+  }, 
+  {
+   "role": "Sales User"
+  }, 
+  {
+   "role": "Item Manager"
+  }, 
+  {
+   "role": "Stock Manager"
+  }, 
+  {
+   "role": "Sales Manager"
+  }
+ ]
+}

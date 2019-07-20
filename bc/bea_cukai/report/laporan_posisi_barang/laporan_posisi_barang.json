@@ -1,0 +1,25 @@
+{
+ "add_total_row": 0, 
+ "creation": "2019-05-08 15:35:02.001461", 
+ "disable_prepared_report": 0, 
+ "disabled": 1, 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 0, 
+ "is_standard": "Yes", 
+ "modified": "2019-05-12 12:59:59.368297", 
+ "modified_by": "Administrator", 
+ "module": "Bea Cukai", 
+ "name": "Laporan Posisi Barang", 
+ "owner": "Administrator", 
+ "prepared_report": 0, 
+ "query": "", 
+ "ref_doctype": "WIP", 
+ "report_name": "Laporan Posisi Barang ", 
+ "report_type": "Query Report", 
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "align_labels_right": 0, 
+ "creation": "2019-05-12 09:11:07.931151", 
+ "custom_format": 1, 
+ "default_print_language": "en", 
+ "disabled": 0, 
+ "doc_type": "Pemasukan Barang", 
+ "docstatus": 0, 
+ "doctype": "Print Format", 
+ "font": "Default", 
+ "html": "<div id=\"datatables\"><div class=\"col-lg-12 table-responsive\"><table>\n\t\t\t\t\t  <tbody><tr>\n\t\t\t\t\t\t<td><b>LAPORAN PEMASUKAN BARANG PERDOKUMEN PABEAN</b></td>\n\t\t\t\t\t\t<td style=\"text-align:right;\">&nbsp;</td>\n\t\t\t\t\t  </tr>\n\t\t\t\t\t  <tr>\n\t\t\t\t\t\t<td><b>{{ doc.Company }}</b></td>\n\t\t\t\t\t\t<td></td>\n\t\t\t\t\t  </tr>\n\t\t\t\t\t  <tr>\n\t\t\t\t\t\t\t<td><b>Periode 01-01-2019 s/d 12-05-2019</b></td>\n\t\t\t\t\t\t\t<td></td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t  </tbody></table><br><table width=\"100%\" border=\"1\"><thead><tr>\n\t\t\t\t\t<th colspan=\"4\" style=\"text-align:center;vertical-align:middle;\">DOKUMEN PABEAN</th>\n\t\t\t\t\t<th colspan=\"2\" style=\"text-align:center;vertical-align:middle;\">BUKTI PENERIMAAN BARANG</th>\n\t\t\t\t\t<th rowspan=\"2\" style=\"text-align:center;vertical-align:middle;\">PENGIRIM</th>\n\t\t\t\t\t<th rowspan=\"2\" style=\"text-align:center;vertical-align:middle;\">KODE BARANG</th>\n\t\t\t\t\t<th rowspan=\"2\" style=\"text-align:center;vertical-align:middle;\">URAIAN BARANG</th>\n\t\t\t\t\t<th rowspan=\"2\" style=\"text-align:center;vertical-align:middle;\">SAT</th>\n\t\t\t\t\t<th rowspan=\"2\" style=\"text-align:center;vertical-align:middle;\">JML</th>\n\t\t\t\t\t<th rowspan=\"2\" style=\"text-align:center;vertical-align:middle;\">VALAS</th>\n\t\t\t\t\t<th rowspan=\"2\" style=\"text-align:center;vertical-align:middle;\">NILAI PABEAN</th>\n\t\t\t\t\t  </tr>\n\t\t\t\t\t  <tr>\n\t\t\t\t\t\t<th style=\"text-align:center;vertical-align:middle;\">NO</th>\n\t\t\t\t\t\t<th style=\"text-align:center;vertical-align:middle;\">JENIS</th>\n\t\t\t\t\t\t<th style=\"text-align:center;vertical-align:middle;\">NOMOR</th>\n\t\t\t\t\t\t<th style=\"text-align:center;vertical-align:middle;\">TANGGAL</th>\n\t\t\t\t\t\t<th style=\"text-align:center;vertical-align:middle;\">NOMOR</th>\n\t\t\t\t\t\t<th style=\"text-align:center;vertical-align:middle;\">TANGGAL</th>\n\t\t\t\t\t  </tr></thead><tbody><tr>\n\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t<td>BC.2.3</td>\n\t\t\t\t\t\t<td>325235263223</td>\n\t\t\t\t\t\t<td>25-01-2019</td>\n\t\t\t\t\t\t<td>joko</td>\n\t\t\t\t\t\t<td>30-11--0001</td>\n\t\t\t\t\t\t<td>Customer 1</td>\n\t\t\t\t\t\t<td>dasdas</td>\n\t\t\t\t\t\t<td>adasdasd</td>\n\t\t\t\t\t\t<td>Set</td>\n\t\t\t\t\t\t<td style=\"text-align:right\">1.00</td>\n\t\t\t\t\t\t<td>USD</td>\n\t\t\t\t\t\t<td style=\"text-align:right\">220.00</td>\t\t\t\t  \n\t\t\t\t\t  </tr></tbody></table><br><table width=\"100%\" border=\"0\"><tbody><tr>\n\t\t\t\t\t\t\t\t\t<td colspan=\"10\" width=\"70%\">&nbsp;</td>\n\t\t\t\t\t\t\t\t\t<td style=\"vertical-align:top; colspan=\" 3\"\"=\"\">\n\t\t\t\t\t\t\t\t\tKAMI BERTANGGUNG JAWAB<br>\n\t\t\t\t\t\t\t\t\tATAS KEBENARAN LAPORAN INI<br>\n\t\t\t\t\t\t\t\t\tBEKASI, 12-05-2019<br>\n\t\t\t\t\t\t\t\t\tPENGUSAHA DI KAWASAN BERIKAT<br>\n\t\t\t\t\t\t\t\t\t<br><br><br>\n\t\t\t\t\t\t\t\t\t<u><b>ARY WIDYASTUTI</b></u><br>\n\t\t\t\t\t\t\t\t\tMANAGER\n\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</tbody></table></div></div>", 
+ "idx": 0, 
+ "line_breaks": 0, 
+ "modified": "2019-05-12 15:26:27.171686", 
+ "modified_by": "Administrator", 
+ "module": "Bea Cukai", 
+ "name": "Print Barang Masuk", 
+ "owner": "Administrator", 
+ "print_format_builder": 0, 
+ "print_format_type": "Server", 
+ "show_section_headings": 0, 
+ "standard": "Yes"
+}

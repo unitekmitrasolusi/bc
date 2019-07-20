@@ -1,0 +1,24 @@
+{
+ "add_total_row": 0, 
+ "creation": "2019-05-12 14:25:08.738523", 
+ "disable_prepared_report": 0, 
+ "disabled": 0, 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 0, 
+ "is_standard": "Yes", 
+ "modified": "2019-05-12 14:25:08.738523", 
+ "modified_by": "Administrator", 
+ "module": "Bea Cukai", 
+ "name": "Laporan Pertanggung jawaban Barang Jadi", 
+ "owner": "Administrator", 
+ "prepared_report": 0, 
+ "ref_doctype": "WIP", 
+ "report_name": "Laporan Pertanggung jawaban Barang Jadi", 
+ "report_type": "Script Report", 
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

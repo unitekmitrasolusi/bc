@@ -1,0 +1,21 @@
+{
+ "align_labels_right": 0, 
+ "creation": "2019-05-12 14:58:12.346697", 
+ "custom_format": 0, 
+ "disabled": 0, 
+ "doc_type": "Pengeluaran Barang", 
+ "docstatus": 0, 
+ "doctype": "Print Format", 
+ "font": "Default", 
+ "format_data": "[{\"fieldname\": \"print_heading_template\", \"fieldtype\": \"Custom HTML\", \"options\": \"<div class=\\\"print-heading\\\">\\t\\t\\t\\t<h2>LAPORAN PENGELUARAN BARANG PERDOKUMEN PABEAN<br><small>{{ doc.company }}</small> <br>Periode 12-05-2019 s/d 12-05-2019\\t\\t\\t\\t</h2></div>\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"jenis_dokumen_bc\", \"label\": \"Jenis Dokumen\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"nomor_dokumen_bc\", \"label\": \"Nomor Dokumen\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"tanggal_dokumen\", \"label\": \"Tanggal Dokumen\"}, {\"print_hide\": 0, \"fieldname\": \"penerima_customer\", \"label\": \"Penerima\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"delivery_note\", \"label\": \"Nomor Surat Jalan\"}, {\"print_hide\": 0, \"fieldname\": \"delivery_date\", \"label\": \"Tanggal Surat Jalan\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"get_items\", \"label\": \"Get Items\"}, {\"visible_columns\": [{\"print_hide\": 0, \"fieldname\": \"item_code\", \"print_width\": \"\"}, {\"print_hide\": 0, \"fieldname\": \"item_name\", \"print_width\": \"\"}, {\"print_hide\": 0, \"fieldname\": \"uom\", \"print_width\": \"\"}, {\"print_hide\": 0, \"fieldname\": \"qty\", \"print_width\": \"\"}, {\"print_hide\": 0, \"fieldname\": \"rate\", \"print_width\": \"\"}, {\"print_hide\": 0, \"fieldname\": \"amount\", \"print_width\": \"\"}], \"print_hide\": 0, \"fieldname\": \"items\", \"label\": \"Items\"}]", 
+ "idx": 0, 
+ "line_breaks": 0, 
+ "modified": "2019-05-12 15:32:11.294054", 
+ "modified_by": "Administrator", 
+ "module": "Bea Cukai", 
+ "name": "Print Pengeluaran Barang", 
+ "owner": "Administrator", 
+ "print_format_builder": 1, 
+ "show_section_headings": 0, 
+ "standard": "Yes"
+}
