@@ -6,25 +6,26 @@ frappe.query_reports["Laporan Pemasukan Barang Per Dokumen"] = {
 	"filters": [
 		
 	{
-			"fieldname":"jenis_dokumen_bc",
+			"fieldname":"jenis_dokumen",
 			"label":("Jenis Dokumen"),
 			"fieldtype":"Select",
-			"options":["","BC.2.3","BC.2.7","BC.2.6.2","BC.4.0"]
+			"options":["BC.2.3","BC.2.7","BC.2.6.2","BC.4.0"],
+			"default":["BC.2.3"]
 		},
-				{
-			"fieldname":"from_date",
-			"label": __("Dari Tanggal"),
-			"fieldtype": "Date",
-			"default": frappe.datetime.add_months(frappe.datetime.get_today(), -1),
-			"reqd": 1
-		},
-		{
-			"fieldname":"to_date",
-			"label": __("Sampai Tanggal"),
-			"fieldtype": "Date",
-			"default": frappe.datetime.get_today(),
-			"reqd": 1
-		}	
+			{
+		"fieldname":"from_date",
+		"label": __("From Date"),
+		"fieldtype": "Date",
+		"width": "80",
+		"default": frappe.datetime.month_start()
+	},
+	{
+		"fieldname":"to_date",
+		"label": __("To Date"),
+		"fieldtype": "Date",
+		"width": "80",
+		"default": frappe.datetime.month_end()
+	}	
 
 			]
 }

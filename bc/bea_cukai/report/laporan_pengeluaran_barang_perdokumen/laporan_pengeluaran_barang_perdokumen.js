@@ -5,10 +5,11 @@
 frappe.query_reports["Laporan Pengeluaran Barang Perdokumen"] = {
 	"filters": [
 		{
-			"fieldname":"jenis_dokumen_bc",
+			"fieldname":"jenis_dokumen",
 			"label":("Jenis Dokumen"),
 			"fieldtype":"Select",
-			"options":["BC.3.0","BC.2.5","BC.2.7","BC.2.6.1","BC.4.1","BA Pemusnahan"]
+			"options":["BC.3.0","BC.2.5","BC.2.7","BC.2.6.1","BC.4.1","BA Pemusnahan"],
+			"default":["BC.3.0"]
 		},
 				{
 			"fieldname":"from_date",
